@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Canım Benim 💕</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="overflow-x-hidden">
+
+  <!-- Particles -->
+  <div id="tsparticles"></div>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10">
+    
+    <h1 id="typed-text" class="handwriting text-white text-4xl md:text-6xl mb-6"></h1>
+
+    <div class="pulse-love text-3xl md:text-5xl font-bold mt-4">
+      SENİ ÇOK SEVİYORUM
+    </div>
+
+    <div class="mt-10 glass-card px-6 py-4 text-white text-lg">
+      Aşağı kaydır 💕
+    </div>
+  </section>
+
+  <!-- Section 1: Gallery -->
+  <section class="section" data-aos="fade-up">
+    <h2 class="section-title">Anılarımız 📸</h2>
+    <div class="gallery">
+      <img src="https://i.imgur.com/8Km9tLL.jpg" />
+      <img src="https://i.imgur.com/5tj6S7Ol.jpg" />
+      <img src="https://i.imgur.com/4AiXzf8.jpeg" />
+    </div>
+  </section>
+
+  <!-- Section 2: Messages -->
+  <section class="section" data-aos="fade-up">
+    <h2 class="section-title">Sana Mesajlarım 💌</h2>
+    <div class="messages">
+      <div class="msg-card">Gülüşün dünyamı güzelleştiriyor ✨</div>
+      <div class="msg-card">Kalbimin en güzel yerindesin 💕</div>
+      <div class="msg-card">İyi ki varsın, iyi ki benimlesin 🌙</div>
+    </div>
+  </section>
+
+  <!-- Section 3: Countdown -->
+  <section class="section" data-aos="fade-up">
+    <h2 class="section-title">Seni Tanıyalı 💖</h2>
+    <div id="counter" class="countdown"></div>
+  </section>
+
+  <!-- Section 4: Mini Game -->
+  <section class="section" data-aos="fade-up">
+    <h2 class="section-title">Sürpriz 🎁</h2>
+    <button id="heartBtn" class="love-btn">Kalbi Patlat 💘</button>
+    <div id="heartArea"></div>
+  </section>
+
+  <!-- Music -->
+  <section class="section" data-aos="fade-up">
+    <h2 class="section-title">Bizim Şarkımız 🎶</h2>
+    <button id="musicBtn" class="music-btn">Müziği Başlat 🎵</button>
+  </section>
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
